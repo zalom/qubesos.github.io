@@ -41,6 +41,10 @@ th {
   > thead > tr > th {
     vertical-align: bottom;
     border-bottom: 2px solid $table-border-color;
+    top: 0;
+    position: sticky;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+    background: white;
   }
   // Remove top border from thead by default
   > caption + thead,
